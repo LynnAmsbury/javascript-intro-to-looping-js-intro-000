@@ -22,7 +22,7 @@ var integer = 0;
 
 function doWhileLoop(integer) {
   var i = 1;
-  do{
+  do {
     console.log("I run once regardless.");
-  }while(i++ < integer);
+  } while(i++ < integer);
 }
