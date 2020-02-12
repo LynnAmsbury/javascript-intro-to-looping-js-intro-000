@@ -21,8 +21,8 @@ function whileLoop(number) {
 var integer = 0;
 
 function doWhileLoop(integer) {
-  var integer = 1;
-  do {
+  var i = 1;
+  do{
     console.log("I run once regardless.");
-  } while(integer++ < integer);
+  }while(i++ < integer);
 }
